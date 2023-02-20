@@ -1,0 +1,21 @@
+
+
+<div class ="container">
+<h1>New Game Starts Now!</h1>
+<h2>Ready, Steady, Go!🥇</h2>
+<%=@letters %>
+<%# <% @letters.each do |letter| %>
+  <%# letter
+<% end %>
+
+
+<form action="/score" data-turbo="false">
+  <input type="text" name="letters" placeholder="Enter letter of your choice">
+  <input type="submit" value="Submit!">
+</form>
+
+</div>
+
+<%# <form action="TODO" method="TODO" data-turbo="false">
+  <!-- ... -->
+</form> %>
